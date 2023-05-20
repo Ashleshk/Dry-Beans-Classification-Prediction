@@ -36,10 +36,16 @@ Now, we have the training set:\
 4- Feature scaling using StadardScalar()
 
 ## Model Training
-SVC, MLP, Xgboost, Catboost and LightGBM classifiers were trained on the dataset separately.
+Logistic Regression, Decision Tree, Random Forest, MLP, Xgboost classifiers were trained on the dataset separately.
 - RandomizedSearchCV was used previously in hyperparameter optimization for the models and the best parameters are used directly in this code.
 - F1-score and Confusion Matrix  are used to evaluate each model's performance.\
 \
-Finally, Voting classifier with 'soft' voting is used with the four best models; MLP, Xgboost, Catboost and LightGBM. 
+
+## Result 
+On analysing the results from each model, following are some inferences:
+- There was no overfitting observed in any of the three techniques used as the accuracy values for training and validation confusion matrices were close to each other.
+- All accuracies achieved for the developed classification model were **greater than 85%**.
+- It is worthwhile to note that the Accuracy value for the validation partition of **Boosted Tree model was 92.16%** and only marginally lower than the Accuracy value of Neural Network model. 
+- Thus, Boosted Tree model may be recommended for classification as an alternative to the Neural Network model
 
 
