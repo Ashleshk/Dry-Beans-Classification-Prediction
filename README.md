@@ -1,3 +1,4 @@
+### Data Mining Project
 # Dry Beans Classification
 ![alt text](https://food.unl.edu/newsletters/images/assorted-dry-beans.png)
 
@@ -12,7 +13,7 @@ Logistic Regression, Decision Tree, Random Forest, MLP, Xgboost classifiers were
 ### 2-EDA
 ### 3-Preprocessing
 ### 4-Model Training
-### 5-Model Training
+### 5-Result
 ## Dataset
 
 The dataset provided in this project is obtained from [UC Irvine Machine Learning Repository - Dry Bean Dataset.](https://archive.ics.uci.edu/ml/datasets/Dry+Bean+Dataset)
