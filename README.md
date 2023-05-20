@@ -4,9 +4,8 @@
 Click [here](https://github.com/Ashleshk/Dry-Beans-Classification-Prediction/blob/main/Project_Report_final.pdf) for report.
 
 In this project different machine learning algorithms were used to classify the most well-known 7 types of beans in Turkey; Barbunya, Bombay, Cali, Dermason, Horoz, Seker and Sira, depending **ONLY** on dimension and shape features of bean varieties with no external discriminatory features.
-- This code was part of a Kaggle competition and came in the 9th place out of 81 teams.
 
-MLP, Xgboost, Catboost and LightGBM classifiers were trained and a final VotingClassifier is used resulting F1-score 0.956 on the training data, 0.935 on validation set and 0.938 on the final testing set.  
+Logistic Regression, Decision Tree, Random Forest, MLP, Xgboost classifiers were trained and a final Neural Network is used resulting Accuracy 94.21% on the training data, 94.91%  on validation set and 0.938 on the final testing set.  
 
 ## Table of contents:
 ### 1-Dataset
@@ -39,7 +38,6 @@ Now, we have the training set:\
 Logistic Regression, Decision Tree, Random Forest, MLP, Xgboost classifiers were trained on the dataset separately.
 - RandomizedSearchCV was used previously in hyperparameter optimization for the models and the best parameters are used directly in this code.
 - F1-score and Confusion Matrix  are used to evaluate each model's performance.\
-\
 
 ## Result 
 On analysing the results from each model, following are some inferences:
